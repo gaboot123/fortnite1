@@ -1,54 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Fortnite</title>
-    <style>
-        .Image {
-            height: 700px;
-        }
-        .lestitres{
-            font-size: 50px;
-            color: aqua
-        }
-        body{
-
-           background-image: url("Fortnite-red-1.jpg");
-           background-size: 400px
-        }
-        .effet{
-            font-size: 50px;
-            color: red
-        }
-        .effet:hover{
-            transition: font-size 0.3s;
-            font-size: 55px;
-            color: blue
-        }
-        
-    </style>
 </head>
 <body>
     <header>
-        <p class="lestitres"><b><a href="https://www.epicgames.com" target="_blank" >epicgames</a></b></p>
+        <p><b><a href="https://www.epicgames.com" target="_blank" >epicgames</a></b></p>
     </header>
 
     <main>
         <aside>
-            <p class="lestitres"><b>J'aime fortnite</b></p>
+            <p><b>J'aime fortnite</b></p>
         </aside>
 
         <section>
-            <p class="lestitres"><b>Section</b></p>
+            <p><b>Section</b></p>
             <article>
-                    <img class="Image" src="Fortnite_KeyArt_1080p.0.jpg" alt="FORTNITE">
+                    <img src="Fortnite_KeyArt_1080p.0.jpg" alt="FORTNITE">
                 <h3 class="effet effet:hover"><p>J'aime cette image 🎮</p></h3>               
             </article>
             <article>
-                    <img class="Image" src="fortnite1.png" alt="FORTNITE1">
+                    <img src="fortnite1.png" alt="FORTNITE1">
                 <p>J'aime cette image aussi</p>
             </article>
         </section>
@@ -61,10 +36,12 @@
        <li>rare</li>
        <li>epic</li>
        <li>legendary</li>
+       <li onclick="haha()">do not click</li>
    </ul>
-
-   <iframe width="900" height="600" src="https://www.youtube.com/embed/66GwKsTKC4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <iframe width="900" height="600" src="https://www.youtube.com/embed/ryArsXIMIqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <div class="video-youtube">
+       <iframe width="900" height="600" src="https://www.youtube.com/embed/66GwKsTKC4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="900" height="600" src="https://www.youtube.com/embed/ryArsXIMIqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
    <button  onclick="haha()">click ici pour en savoir plus!</button>
    <script>
        var indice =1;
