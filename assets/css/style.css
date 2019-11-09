@@ -1,1 +1,31 @@
 /* style_css */
+body {
+    background-image: url("assets/Img/redredred.jpg");
+    background-repeat:repeat;
+    background-color: #000000;
+    background-position: center;
+    background-size: 100px;
+}
+.classeTitre{
+    font-size: 30px;
+    color: white;
+}
+.classImg{
+    height: 500px;
+}
+.classTexte{
+    color: white;
+}
+.classImg:hover{
+        border: 6px rgb(245, 245, 0) solid;
+    }
+    .classIMG{
+        height: 1050px;
+    }
+    .classIMG:hover{
+        border: 8px rgb(245, 245, 0) solid;
+    }
+    .classvideo{
+        height: 620px;
+        width: 920px;
+    }
